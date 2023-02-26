@@ -712,4 +712,10 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>MwqemAdapter</instance>
         </interface>
     </hal>
+    <!-- Touch Feature service -->
+    <hal format="hidl">
+        <name>vendor.xiaomi.hardware.touchfeature</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::ITouchFeature/default</fqname>
+    </hal>
 </manifest>
