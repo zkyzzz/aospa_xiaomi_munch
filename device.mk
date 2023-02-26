@@ -381,6 +381,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     vendor.sys.thermal.data.path=/data/vendor/thermal/
 
+# Touchfeature
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.vendor.touchfeature.type=59
+
 # Update Engine
 PRODUCT_PACKAGES += \
     update_engine \
